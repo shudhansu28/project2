@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><u>STUDENT REGISTRATION FORM </u></legend>
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="fname" id="fname">(max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="lname" id="lname"> (max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <br>
+            <label for="mobile">MOBILE NUMBER</label>
+            <input type="number" name="no" id="mobile">(10 digit number)
+            <br>
+            <br>
+            GENDER
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+             <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="address" >ADDRESS</label>
+            <textarea name="address" id="address" rows="6px" cols="40px"></textarea>
+            <br>
+            <br>
+            <label for="city">CITY</label>
+            <input type="text" name="city" id="city"> (max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            <label for="pin">PIN CODE</label>
+            <input type="number" name="pin" id="pin"> (6 digit number)
+            <br>
+            <br>
+            <label for="state">STATE</label>
+            <input type="text" name="state" id="state">(max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            COUNTRY
+            <input type="text" name="country list" list="clist" >
+            <datalist id="clist">
+                <option >Nepal</option> <option>India</option> <option >China</option> <option >USA</option>
+
+            </datalist>
+            <br>
+            <br>
+            HOBBIES
+            <input type="checkbox" name="hobbies" id="drawing">
+            <label for="drawing">Drawing</label>
+            <input type="checkbox" name="hobbies" id="singing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" name="hobbies" id="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" name="hobbies" id="sketching">
+            <label for="sketching">Sketching</label>
+            <br>
+            <input type="checkbox" name="hobbies" id="others">
+            <label for="others">Others</label> <input type="text">
+            <br>
+            <br>
+            <table border="1" cellpadding="10px"  >
+                <tr>
+                    <thead>
+                    <th>QUALIFICATION</th>
+                    <th>SI.NO.</th>
+                    <th>EXAMINATION</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </thead>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    
+            </table>
+                     (10 char max) (upto 2 decimal)
+                     <br>
+                     <br>
+            COURSES APPLIED FOR
+            <input type="radio" name="courselist" id="bca">
+            <label for="bca">BCA</label>
+            <input type="radio" name="courselist" id="bcom">
+            <label for="bcom">B.Com</label>
+            <input type="radio" name="countrylist" id="bsc">
+            <label for="bsc">B.Sc</label>
+            <input type="radio" name="courselist" id="ba">
+            <label for="ba">B.A</label>
+            <br>
+            <br>
+            <button>Register</button> <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

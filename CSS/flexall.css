@@ -1,0 +1,31 @@
+.child{
+    border: 1px solid red; padding: 30px;
+    width: 440px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    /* row column row-reverse column-reverse */
+    flex-wrap: wrap;
+    /* nowrap wrap wrap-reverse */
+    justify-content: start;
+    height: 350px;
+   background: skyblue;
+   align-items: center;
+   align-content: start;
+   /* start end center space-around space-between */
+
+}
+.box{
+    border: 2px solid blue; padding: 30px;
+
+}
+.parent1{
+    display: flex; height: 400px; background: skyblue;
+}
+.a{flex-basis: 300px; align-self: flex-start; order:4;}
+.b{flex-grow: 1; align-self: center; order:1;}
+.c{
+    flex-grow:1; align-self: end; order:3;
+}
+.d{flex-grow: 0; order: 2;}

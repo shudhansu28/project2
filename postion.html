@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid red ; margin: 0; padding: 0; width: 200px; height: 200px;
+        }
+        .a{ left:50; top:0px; position: sticky; background: red;}
+        .b{ left: 0px; bottom:0px; position: fixed; background: white;}
+        .c{left:1500px ; top: -100px;  position: relative; background: green;}
+        .d{left: 1500px; top:100px ; position: relative; background: yellow;}
+        body{
+            height: 1800px;
+        }
+        .main{width: 500px; height: 350px; border: 10px solid #000; position: relative; }
+        .item{border: 3px solid red; width: 70px; height: 70px; position: absolute;}
+        .one{right: 0;;top: 0;} .two{right: 0; bottom: 0;} .three{left: 0; bottom: 0;} .four{left: 30px; top: 100px;}
+    </style>
+</head>
+<body>
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    <div class="box d">D</div>
+
+    <div class="main">
+        <div class="item one"></div>
+        <div class="item two"></div>
+        <div class="item three"></div>
+        <div class="item four"></div>
+    </div>
+</body>
+</html>

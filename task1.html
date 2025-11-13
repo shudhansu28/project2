@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        nav{margin: 50px;}
+        ul{display: flex; gap: 20px; list-style:none;}
+        .sub{display: none;}
+        li:hover .sub{display: block;}
+        li{position: relative;}
+        .drop{position: absolute; display: none; left: 100%; top: 0px;}
+        .sub li:hover .drop{display: block;}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About Us
+                <ul class="sub"> 
+                    <li>M1
+                        <ul class="drop">
+                            <li>m1</li>
+                            <li>m2</li>
+                        </ul>
+                    </li>
+                    <li>M2</li>
+
+                </ul>
+
+            </li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+</body>
+</html>

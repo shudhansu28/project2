@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+       .box{border: 1px solid black;padding: 30px;}
+       .website{display: flex;  flex-wrap:wrap; justify-content: space-between; }
+       .a{width: 100%; background: orangered; } .b{width: 25%;background: yellow;} .c{width: 50%;background: white;} .d{width: 25%;background: lightgreen;}
+       .e{width: 100%; background: lightblue;}
+       @media (min-width:400px) and (max-width:900px)
+       {
+        .c{width: 100%; order: 2;} .d{width: 50%;order: 4;} .b{width: 50%; order: 3;} .e{width: 100%; order: 5;}
+       }
+    </style>
+</head>
+<body>
+    <div class="website">
+   <header class="box a">Header</header>
+   <aside class="box b">Left</aside>
+   <main class="box c">Main</main>
+   <aside class="box d">Rigth</aside>
+   <footer class="box e">Footer</footer>
+</div>
+</body>
+</html>

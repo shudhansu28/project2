@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        p::first-letter{font-size: 66px;}
+        p::first-line{background: orange;}
+        ::placeholder{color: red;}
+        ::marker {color: yellow;}
+        ::selection {background: lightgreen; color: blue;}
+        h2::before{content: 'sita'; color: red; margin-left: 10px;}
+        h2::after{content: 'ram'; background: red; margin-right: 10px;position: absolute; left: 20px;}
+        h2{position: relative;}
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque esse expedita facere laudantium. Odio voluptas nostrum necessitatibus enim mollitia reprehenderit eum dicta, temporibus delectus alias ea et! Inventore, asperiores odit.
+    </p>
+    <input type="text" name="" placeholder="Enter full name">
+    <ul>
+        <li>Home</li>
+    </ul>
+    <h2>Lorem ipsum dolor sit amet.</h2>  <h2>Lorem ipsum dolor sit amet.</h2> <h2>Lorem ipsum dolor sit amet.</h2> <h2>Lorem ipsum dolor sit amet.</h2>
+</body>
+</html>

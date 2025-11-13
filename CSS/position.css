@@ -1,0 +1,37 @@
+.box{
+    width: 100px; height: 100px; border: 3px solid blue;
+}
+.a{
+    left: 50px;  top: 50px; position: relative;
+}
+body{
+    height: 1800px;
+}
+.b{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.c{
+    background: yellow; position: sticky; top: 10px;
+}
+.main{
+    width: 500px; height: 350px; border: 10px solid #000;
+    position: relative;
+}
+.item{
+    width: 70px; height: 70px; border: 2px solid red;
+    position: absolute;
+}
+.one{
+    right: 0; top: 0; 
+}
+.two{
+    right: 0; bottom: 0;
+}
+.three{
+    left: 0px; bottom: 0;
+}
+.four{
+    left: 0px; top: 0px;
+}

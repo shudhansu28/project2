@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0px;padding: 0px;box-sizing: border-box;}
+        ul{list-style: none; margin: 40px;}
+        li{ border-bottom: 1px solid grey;padding-bottom: 15px;position: relative;}
+        li::before{content: ''; width: 2px;height: 100%;background: grey;position: absolute;left: -10px;top: 0px;}
+    li::after{content: ''; width: 10px; height:10px;border: 1px solid red; position: absolute; left: -14px; top: 0px;
+    border-radius: 50%;background: #fff;}
+    li:first-child::after{background: black;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <small>४७ मिनेट अगाडि |
+                समाचार</small> 
+                <h5>राजदूत पण्डितलाई मातृशोक</h5>
+        </li>
+        <li>
+            <small>४८ मिनेट अगाडि |
+                खेल</small>
+                <h5>क्रिकेटः नेपालद्वारा भारत ९२ रनले पराजित</h5>
+        </li>
+        <li>
+            <small>३ घण्टा अगाडि |
+                Breaking</small>
+                <h5>३ घण्टा अगाडि
+                    Breaking</h5>
+        </li>
+        <li>
+            <small>३ घण्टा अगाडि |
+                राजनीति</small>
+                <h5>कांग्रेसले केन्द्रीय कार्यसमितिको आकस्मिक बैठक बोलायो</h5>
+        </li>
+        <li>
+            <small>३ घण्टा अगाडि |
+                समाचार</small>
+                <h5>म्याग्दीको कोसेली टिमुरका परिकार</h5>
+        </li>
+    </ul>
+</body>
+</html>

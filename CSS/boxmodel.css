@@ -1,0 +1,19 @@
+.box{
+    width: 140px; 
+    background: green;
+    height: 140px;
+    margin-top: 50px;
+    margin-left: 200px;
+    /*Shorthand margin: top right bottom left*/
+    margin: 50px 0 0 200px;
+}
+.container{
+    width: 800px; background: red;
+    margin-left: auto; margin-right: auto;
+    /*Shorthand margin:0 px auto*/
+    padding: 30px;
+    box-sizing: border-box;
+}
+.bg-grey{
+    background: blue;
+}

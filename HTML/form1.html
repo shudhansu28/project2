@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        Enter Courses
+        <input type="checkbox" name="courses" value="web"> Web Development
+        <input type="checkbox" name="courses" value="seo"> SEO
+        <hr>
+        Date: <input type="date" name="date">
+        <hr>
+        Time: <input type="time" name="time">
+        <hr>
+        date & time: <input type="datetime-local" name="datetime">
+        <hr>
+
+        color: <input type="color" name="color">
+        <hr>
+        URL: <input type="url" name="domain">
+        <hr>
+        Range: 0<input type="range" name="price" min="0" max="100"> 100
+        <hr>
+        Message: <textarea name="message" rows="6" cols="40"></textarea>
+        <hr>
+        File: <input type="file" name="photo" accept="image/*">
+        <hr>
+        Email: <input type="email" name="email">
+        <hr>
+        Password: <input type="password" name="pass">
+        <hr>
+        Food: <select name="food" multiple size="6" >
+            <optgroup label="Fruits">
+                <option >Mango</option>
+                <option>Apple</option>
+            </optgroup>
+            <optgroup label="Veg"> 
+                <option>Potato</option>
+                <option>Tomato</option>
+            </optgroup>
+        </select>
+        <hr>
+        Country List
+        <input type="text" name="countrylist" list="clist">
+        <datalist id="clist">
+            <option>Nepal</option> <option>USA</option> <option>India</option> <option>China</option>
+        </datalist>
+        <hr>
+        Placeholder: <input type="text" placeholder="Enter your name" name="ss">
+        <hr>
+        required : <input type="text" name="sss" required>
+        <hr>
+        autocomplete : <input type="text" name="" autocomplete="off">
+        <hr>
+        readonly: <input type="text" name="ssss" value="shudhansu" readonly>
+        <hr>
+
+        autofocus : <input type="text" name="n4" autofocus>
+        <hr>
+        <input type="image" width="50" src="download.jpeg">
+        <input type="reset">
+        <button>Submit</button>
+    </form>
+    <form action="https://www.google.com/search" target="_blank">
+        <input type="text" name="q">
+        <button>Google Search</button>
+    </form>
+</body>
+</html>

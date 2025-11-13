@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr>
+        <td>First Name:</td>
+        <td><input type="text" name="fname" required></td>
+      </tr>
+      <tr>
+        <td>Last Name:</td>
+        <td><input type="text" name="lname" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password" required></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+      <tr>
+        <td>Country:</td>
+        <td>
+          <select name="country">
+            <option value="">Select</option>
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Hobbies:</td>
+        <td>
+          <input type="checkbox" name="hobby" value="reading"> Reading
+          <input type="checkbox" name="hobby" value="sports"> Sports
+          <input type="checkbox" name="hobby" value="music"> Music
+        </td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td><textarea name="address" rows="3" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <input type="submit" value="Register">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

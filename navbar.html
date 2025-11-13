@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        ul{display: flex; gap: 20px; list-style: none;}
+        li{position: relative;}
+        li::after{content:"";position: absolute ; width: 100%; height: 2px; background: red; left: 0px; bottom: 0px; transition: 2s; transform: scale(0,1);}
+        li:hover::after{transform: scale(1,1);}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Success Gallery </li>
+           <li> Student Testimonials </li>
+           <li> Upcoming Classes (45) </li>
+           <li> Career</li>
+           <li> Blog</li>
+    </ul>
+</body>
+</html>

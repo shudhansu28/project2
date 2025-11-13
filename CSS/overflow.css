@@ -1,0 +1,32 @@
+.box{
+    width: 120px;
+    height: 90px;
+    border: 2px solid black;
+    float: left;
+
+}
+.a{
+    overflow: visible; /*by default*/
+}
+.b{
+    overflow: hidden;
+
+}
+.c{
+    overflow: scroll;
+
+}
+.d{
+    overflow: auto;
+}
+
+span{
+    background: green;
+    padding: 26px;
+    display: inline-block;
+}
+h1{
+    background: red;
+    padding: 30px;
+    display: inline-block;
+}

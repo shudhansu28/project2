@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child{background: skyblue !important;}
+        p:last-child{background: pink !important;}
+        p:nth-child(3) , p:nth-child(4) {text-decoration: underline;}
+        p:nth-child(odd) {background: red;}
+        p:nth-child(even) {font-size:77px;}
+
+        a:visited {color: orange;}
+        a:link {color: green;}
+        a:hover{color: aqua;}
+        a:active{color: brown;}
+
+        :root{
+            --brand: rgb(255, 0, 0);
+            --fs:30px;
+            --size:300px;
+        }
+        h1{background: var(--brand); font-size: var(--fs);width: var(--size); height: var(--size); display: flex;
+        justify-content: center; align-items: center;}
+    </style>
+</head>
+<body>
+    <h1>this a demo.</h1>
+    <a href="https://www.google.com">gg</a> <a href="https://twitter.com">tt</a>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

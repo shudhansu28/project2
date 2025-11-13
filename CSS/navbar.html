@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+        nav{margin: 50px;}
+        ul{display: flex; list-style: none; gap: 20px;}
+        .sub{display: none;}
+        li:hover .sub{display: block;}
+        li{position: relative;}
+        .drop{position: absolute; left: 100%; top: 0; display: none;}
+        .sub li:hover .drop{display:block}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About Us
+                <ul class="sub">
+                    <li>Mission
+                        <ul class="drop">
+                            <li>M1</li>
+                            <li>M2</li>
+                        </ul>
+                    </li>
+                <li>Vission</li>
+            </ul>
+            </li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box p{color: red;} /*Descendant */
+         .box > p {background: green;}   /*Child*/
+         .box + p {text-decoration: underline;}  /* Next sibiling */
+         .box ~ p {text-shadow: 0px 0px 2px green;} /*Subsequent sibiling*/
+    </style>
+</head>
+<body>
+    2.Combination Selector
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="inner">
+            <p>Shudhansu</p>
+        </div>
+    </div>
+    <p>Ram</p>
+    <p>Sita</p>
+</body>
+</html>
